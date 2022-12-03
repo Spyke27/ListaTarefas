@@ -11,7 +11,7 @@
 
 ## Projeto
 
-- Pequena lista de tarefas, apenas um input e botão para adicionar o item digitado à lista. Validação de até 30 caracteres e mensagem de erro caso ultrapasse.
+- Pequena lista de tarefas, apenas um input e botão para adicionar o item digitado à lista. Validação de formulário.
 
  ## Projeto rodando:
  

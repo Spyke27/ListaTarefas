@@ -18,9 +18,8 @@ function adicionar(event) {
 btn.addEventListener('click', adicionar);
 
 input.addEventListener('keyup', function(){
-    if(input.value.length > 29){
-        erro.style.color = 'red';
-        erro.innerHTML = 'Máximo de 30 caracteres!'
+    if(input.value.length < 5 && input.value.length > 0){
+        erro.innerHTML = 'Mínimo de 5 caracteres!'
     }
     else {
         erro.innerHTML = ''

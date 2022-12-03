@@ -42,6 +42,7 @@ label{
 button{
     background-color: #00a470;
     color: white;
+    margin-top: 10px;
     margin-bottom: 20px;
     border:none;
     border-radius: 4px;
@@ -50,6 +51,7 @@ button{
     text-transform: uppercase;
     cursor: pointer;
     align-self: flex-end;
+    display: inline;
 }
 button:hover{
     background-color: #008b5f;
@@ -74,11 +76,16 @@ li{
     height: 40px;
     margin-top: 5px;
 }
+.aa{
+    display: flex;
+    justify-content: space-between;
+}
 .copy a{
     text-decoration: none;
     color: #e3e3e3;
 }
 .erro{
     font-size: 12px;
-    color: white;
+    color: red;
+    display: inline;
 }
