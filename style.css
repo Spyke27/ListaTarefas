@@ -23,7 +23,6 @@ input{
     border-radius: 4px;
     padding: 5px;
     outline: none;
-    margin-bottom: 10px;
 }
 label{
     font-weight: bold;
@@ -43,6 +42,8 @@ label{
 button{
     background-color: #00a470;
     color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
     border:none;
     border-radius: 4px;
     padding: 8px;
@@ -54,11 +55,16 @@ button{
 button:hover{
     background-color: #008b5f;
 }
+ul{
+    list-style: none;
+    margin-left: -20px;
+}
 li{
     color: #222;
     font-size: 19px;
     font-family: 'Helvetica';
     margin-left: -20px;
+    
 }
 .copy{
     background-color: #222;
@@ -72,4 +78,8 @@ li{
 .copy a{
     text-decoration: none;
     color: #e3e3e3;
+}
+.erro{
+    font-size: 12px;
+    color: white;
 }
