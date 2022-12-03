@@ -19,6 +19,9 @@
 
  ## Resultado 💻
  <hr>
- <img src="https://i.imgur.com/korwJJw.png" alt="print">
- <img src="https://i.imgur.com/bhpiUNa.png" alt="print">
+ <div style="display: flex;">
+    <img src="https://i.imgur.com/korwJJw.png" alt="print">
+    <img src="https://i.imgur.com/bhpiUNa.png" alt="print">
+ </div>
+
  <hr>
